@@ -73,19 +73,19 @@ const validate = () => {
     const bdateValue = bdate.value.trim();
 
     if(firstValue === '') {
-        setError(first, 'Please enter your firstname');
+        setError(first, 'Please enter your Firstname');
     } else {
         setSuccess(first);
     }
 
     if(lastValue === '') {
-        setError(last, 'Please enter your lastname');
+        setError(last, 'Please enter your Surname');
     } else {
         setSuccess(last);
     }
 
     if(emailValue === '') {
-        setError(email, 'Please enter you email');
+        setError(email, 'Please enter a valid email address');
     } else if (!validEmail(emailValue)) {
         setError(email, 'Please enter a valid email address');
     } else {
