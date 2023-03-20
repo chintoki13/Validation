@@ -1,11 +1,11 @@
 body {
-    background-image: url(bg.jpg);
+    background-image: url(25.jpg);
     font-family: 'Poppins', sans-serif;
 }
 
 #form {
     width: 400px;
-    margin: 5vw auto 0 auto;
+    margin: 6vh left 30px;
     padding: 20px;
     background-color: #7b1113;
     border-radius: 4px;
@@ -34,11 +34,11 @@ body {
 
 .form-control input[type="text"], input[type="password"] {
     border: 1px solid black;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	width: 100%;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
 }
 
 .form-control input:focus {
